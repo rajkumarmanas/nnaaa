@@ -1,0 +1,122 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header styles */
+.site-header {
+  background-color: #4f27ae;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.site-header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-header nav li {
+  margin-right: 20px;
+}
+
+.site-header nav li:last-child {
+  margin-right: 0;
+}
+
+.site-header nav a {
+  font-weight: bold;
+  transition: color 0.3s ease;
+  color: #fff;
+}
+
+.site-header nav a:hover {
+  color: #f00;
+}
+
+/* Book details styles */
+.book-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.book-details h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.book-details img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.book-details figcaption {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.book-details ul {
+  margin-top: 20px;
+}
+
+.book-details li {
+  margin-bottom: 10px;
+}
+
+.book-details li strong {
+  display: inline-block;
+  width: 150px;
+}
+
+.book-details button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.book-details button:hover {
+  background-color: #c00;
+}
+
+/* Footer styles */
+.site-footer {
+  background-color: #f2f2f2;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.site-footer p {
+  font-size: 14px;
+  color: #666;
+}
